@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 900px;
+  margin: 0;
+  padding: 0;
+  font-family: Alegreya;
+  background: #131111;
+  width: 100%;
+}
+.about {
+  padding-top: 170px;
+  width: 100%;
+  height: 750px;
+}
+.about img {
+  height: auto;
+  width: 420px;
+  border-radius: 15%;
+}
+.content {
+  width: 550px;
+}
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Alegreya;
+}
+.content h1 {
+  color: yellowgreen;
+  font-size: 80px;
+  font-family: Alegreya;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.content h5 {
+  color: #635147;
+  font-size: 29px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+.content h6 {
+  color: yellowgreen;
+  font-size: 17px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+span {
+  color: orange;
+}
+.content p {
+  color: rgb(216, 204, 204);
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 17px;
+  margin-bottom: 45px;
+}
+button {
+  background: orange;
+  color: black;
+  font-weight: 700;
+  border: 2px solid transparent;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 300ms;
+}
+button:hover {
+  cursor: pointer;
+  background-color: yellowgreen;
+}
+button a {
+  text-decoration: none;
+  color: black;
+}
+.wrapper h2 {
+  font-family: Alegreya;
+  font-size: 47px;
+  margin-bottom: 60px;
+  text-align: center;
+  color: rgb(204, 192, 192);
+}
+.Team {
+  display: flex;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Team .member {
+  background: rgb(204, 192, 192);
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: black;
+  position: relative;
+  border-radius: 25px;
+}
+.Team .member h3 {
+  color: dark blue;
+  font-size: 28px;
+  margin-top: 50px;
+  font-weight: bolder;
+}
+.Team .member p.role {
+  color: darkolivegreen;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin: 12px 0;
+  font-weight: bolder;
+}
+.Team .member .team-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 25%;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.Team .member .team-img img {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}

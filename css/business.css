@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Alegreya;
+}
+  
+.header {
+    text-align: center;
+    padding: 32px; 
+}
+
+.Business{
+    padding-top: 140px;
+}
+.Business h1{
+    font-size: 45px;
+    font-weight: 900;
+}
+.Business p{
+    font-size: 17px;  
+}
+button{
+    background:yellowgreen;
+    color:black;
+    font-weight: 700;
+    border: 2px solid transparent;
+    padding: 13px 30px;
+    border-radius:30px;
+    transition: 300ms;
+}
+button:hover{
+    cursor:pointer;
+    background-color:orange;
+}
+button a{
+    text-decoration: none;
+    color: black;
+} 
+.guide {
+    /*display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;*/
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.value h3{
+    margin-top: 90px;
+    text-align: center;
+}
+
+.guide .value {
+    background: #262626;
+    border-radius: 25px;
+    grid-auto-flow: row;
+    margin: 0 9%;
+    padding:50px;
+    color:whitesmoke;
+    position:relative;
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 90px;
+
+}
+
+
+    

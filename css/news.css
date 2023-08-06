@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+}
+.news h1{
+    padding-top: 10%;
+    font-family: Alegreya;
+    font-size: 45px;
+
+}
+.grid{
+    background-color: rgba (204.192,192);
+    grid-template-columns: 50% 50%;
+    padding:1em;
+    display: grid;
+    position: relative;
+    grid-column-gap: 1em ;
+    grid-row-gap: 3em ;
+    font-family: Alegreya;
+    font-size: 18px;
+    margin-top: 100px;
+}
+button{
+    background:yellowgreen;
+    color:black;
+    font-weight: 700;
+    border: 2px solid transparent;
+    padding: 13px 30px;
+    border-radius:30px;
+    transition: 300ms;
+    display: inline;
+}
+button:hover{
+    cursor:pointer;
+    background-color:orange;
+}
+button a{
+    text-decoration: none;
+    color: black;
+    display: inline;
+}
+table{
+    position:relative;
+    left:44%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    transform: translate(-42%, -0.05%);
+    width: 80%;
+    border-spacing: 0;
+    box-shadow: 0 2px 12px rgba(32,32,32.3);
+    background:rgb(204, 192, 192);
+    border-radius: 1.5%;
+
+}
+th,td{
+    padding:10px 15px;
+}
+th{
+    background: #262626;
+    color:rgb(204, 192, 192);
+    font-family: Alegreya;
+}
+td{
+    font-family: Alegreya;
+}
+.index h2{
+    margin-top: 5%;
+    font-family:Alegreya;
+    color: black;
+}
+.map h2{
+    margin-top: 5%;
+    font-family:Alegreya;
+    color: black;
+}
+
+
+    
+
